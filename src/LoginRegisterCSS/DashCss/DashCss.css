@@ -1,0 +1,210 @@
+.table {
+  width: 100%;
+}
+#rs_end {
+  color: rgb(5, 76, 79);
+}
+#list_patients {
+  color: rgb(41, 1, 58);
+  text-shadow: 3px 3px rgba(255, 255, 255, 0.856);
+}
+#usericon {
+  height: 30px;
+  padding-right: 10px;
+}
+#username {
+  font-size: x-large;
+  font-weight: bolder;
+  color: rgb(255, 158, 2);
+  text-shadow: 1px 1px rgba(255, 238, 0, 0.856);
+}
+.table th,
+.table td {
+  padding: 8px;
+  text-align: center;
+}
+
+@media (min-width: 480px) and (max-width: 760px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+  table {
+    margin-top: 5rem;
+    position: sticky;
+  }
+  thead,
+  .MainAddList {
+    z-index: 1;
+  }
+
+  .AddDiv {
+    position: fixed;
+    top: 4.7rem;
+    padding: 11px;
+    width: 100vw;
+    background-color: white;
+  }
+  .ListDiv {
+    position: fixed;
+    top: 3rem;
+    color: rgb(68, 11, 120);
+    background-color: white;
+    width: 100vw;
+  }
+  tbody {
+    margin-top: 2.5rem;
+    position: sticky;
+    top: 2.5rem;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: relative;
+    display: none;
+  }
+
+  td {
+    /* Behave  like a "row"  */
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+  }
+
+  /* 
+	Label the data
+	*/
+  td:nth-of-type(1):before {
+    content: 'Id';
+  }
+  td:nth-of-type(2):before {
+    content: 'Patients Name';
+  }
+  td:nth-of-type(3):before {
+    content: 'Phone no';
+  }
+  td:nth-of-type(4):before {
+    content: 'Room No';
+  }
+  td:nth-of-type(5):before {
+    content: 'Bill Amount';
+  }
+  td:nth-of-type(6):before {
+    content: 'Actions';
+  }
+
+  .AddDiv {
+    margin-top: 0.9rem;
+  }
+  .ListDiv {
+    margin-top: 5.9rem;
+  }
+  .AddDiv {
+    margin-top: -0.5rem;
+  }
+  .ListDiv {
+    margin-top: 4.9rem;
+  }
+}
+@media (max-width: 480px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+  table {
+    margin-top: 3rem;
+    position: sticky;
+  }
+  thead,
+  .MainAddList {
+    z-index: 1;
+  }
+
+  .AddDiv {
+    position: fixed;
+    top: 4.7rem;
+    padding: 11px;
+    width: 100vw;
+    background-color: white;
+  }
+  .ListDiv {
+    position: fixed;
+    top: 3rem;
+    color: rgb(68, 11, 120);
+    background-color: white;
+    width: 100vw;
+  }
+
+  .AddDiv {
+    margin-top: 1.3rem;
+  }
+  .ListDiv {
+    margin-top: 6.3rem;
+  }
+  tbody {
+    margin-top: 2.5rem;
+    position: sticky;
+    top: 2.5rem;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: relative;
+    display: none;
+  }
+
+  td {
+    /* Behave  like a "row"  */
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+  }
+
+  /* 
+	Label the data
+	*/
+  td:nth-of-type(1):before {
+    content: 'Id';
+  }
+  td:nth-of-type(2):before {
+    content: 'Patients Name';
+  }
+  td:nth-of-type(3):before {
+    content: 'Phone no';
+  }
+  td:nth-of-type(4):before {
+    content: 'Room No';
+  }
+  td:nth-of-type(5):before {
+    content: 'Bill Amount';
+  }
+  td:nth-of-type(6):before {
+    content: 'Actions';
+  }
+}

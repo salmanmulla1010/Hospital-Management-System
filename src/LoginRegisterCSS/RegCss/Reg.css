@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.main-div {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url(../back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.reg-text {
+  margin-bottom: 2rem;
+  font-family: 'Sriracha', cursive;
+  color: rgb(47, 79, 79);
+  text-shadow: 1px 1px rgba(51, 0, 111, 0.856);
+}
+.auto-form-container-reg,
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+.name-hospital-div {
+  position: absolute;
+  top: 4rem;
+}
+.name-hospital {
+  font-size: 3rem;
+  color: rgb(51, 0, 111);
+  text-shadow: 2px 2px rgba(255, 250, 250, 0.856);
+  font-family: 'Lobster', cursive;
+}
+
+@media screen and (min-width: 600px) {
+  .auto-form-container-reg {
+    padding: 4rem;
+    position: relative;
+    margin: 0.5rem;
+    border: 1px solid;
+    border-color: aqua;
+    box-shadow: 0 0.188em 1.55em rgb(110, 110, 110);
+  }
+}
+
+Label {
+  color: black;
+  text-align: left;
+  padding: 0.25rem 0;
+}
+.ireg {
+  display: flex;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 240px;
+  color: black;
+}
+.ireg:hover {
+  color: rgb(1, 116, 3);
+}
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.link-btn-reg {
+  background: none;
+  color: darkblue;
+  text-decoration: underline;
+}
+.btn-submit-reg {
+  margin-top: 1rem;
+  font-family: 'Sriracha', cursive;
+}
+.btn-reg {
+  border: white;
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: rgb(33, 75, 75);
+  margin-bottom: 0.5rem;
+}

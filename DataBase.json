@@ -1,0 +1,145 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "James Rahul Bond",
+      "phone": "7218431010",
+      "room": "8",
+      "bill": "8055"
+    },
+    {
+      "id": 2,
+      "name": "Rasika Anil Sawai",
+      "phone": "7058077397",
+      "room": "9",
+      "bill": "170"
+    },
+    {
+      "id": 3,
+      "name": "Prajakta Kiran Jadhav",
+      "phone": "9960194825",
+      "room ": "7",
+      "bill": "12000",
+      "room": "5"
+    },
+    {
+      "id": 4,
+      "name": "Shubham Mukund Lalge",
+      "phone": "9511844394",
+      "room": "3",
+      "bill": "4394.70"
+    },
+    {
+      "id": 5,
+      "name": "Kishor Sanjay Mahangare",
+      "phone": "7798192384",
+      "room": "3",
+      "bill": " 4900"
+    },
+    {
+      "id": 6,
+      "name": "Shreyash Bhashkar Mahalle",
+      "phone": "7057707060",
+      "room": "3",
+      "bill": "3450"
+    },
+    {
+      "id": 7,
+      "name": "Nisha Ravindra Waghmare",
+      "phone": "9284182372",
+      "room": "9",
+      "bill": "20000"
+    },
+    {
+      "id": 8,
+      "name": "Komal Harishkumar Kashani",
+      "phone": "8177897615",
+      "room": "7",
+      "bill": "17300"
+    },
+    {
+      "name": "Trinesis 1",
+      "phone": "9734537738",
+      "room": "4",
+      "bill": "3420",
+      "id": 9
+    },
+    {
+      "name": "Deepak Kiran Gadve",
+      "phone": "9734537738",
+      "room": "4",
+      "bill": "3423",
+      "id": 11
+    },
+    {
+      "name": "Deepak Kiran Gadve",
+      "phone": "9734537738",
+      "room": "4",
+      "bill": "3420",
+      "id": 12
+    },
+    {
+      "name": "Sarthak Maruti Chougule",
+      "phone": "9734537738",
+      "room": "4",
+      "bill": "3420",
+      "id": 13
+    },
+    {
+      "name": "Amit Maruti Turambekar",
+      "phone": "9112382858",
+      "room": "3",
+      "bill": "2340",
+      "id": 14
+    },
+    {
+      "name": "Pratap Nivas Patil",
+      "phone": "8745638909",
+      "room": "3",
+      "bill": "1290",
+      "id": 15
+    },
+    {
+      "name": "Rajat Jayvant Patil",
+      "phone": "9056783456",
+      "room": "3",
+      "bill": "4521",
+      "id": 16
+    },
+    {
+      "name": "Sukumar Nandkumar Angthekar",
+      "phone": "9754689012",
+      "room": "3",
+      "bill": "9806",
+      "id": 17
+    },
+    {
+      "name": "Aditya Shivaji Patil",
+      "phone": "7218789098",
+      "room": "3",
+      "bill": "7890",
+      "id": 18
+    },
+    {
+      "name": "Deepak Kiran Gadve",
+      "phone": "9734537738",
+      "room": "4",
+      "bill": "3420",
+      "id": 19
+    },
+    {
+      "name": "Dagadu Shantaram Parab",
+      "phone": "9878906578",
+      "room": "3",
+      "bill": "3450",
+      "id": 20
+    },
+    {
+      "name": "Trinesis",
+      "phone": "200000",
+      "room": "9",
+      "bill": "900",
+      "id": 21
+    }
+  ]
+}

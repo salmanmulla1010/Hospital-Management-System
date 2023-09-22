@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+.main-div-log {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.log-text {
+  font-family: 'Sriracha', cursive;
+  color: rgb(47, 79, 79);
+  text-shadow: 1px 1px rgba(51, 0, 111, 0.856);
+}
+
+.auth-form-container,
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.ilog {
+  display: flex;
+  position: absolute;
+  margin-top: 114px;
+  margin-left: 240px;
+  color: black;
+}
+.ilog:hover {
+  color: rgb(157, 4, 4);
+}
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+input:focus {
+  box-shadow: 0 0 8px 2px rgba(244, 110, 38, 0.9);
+  outline: 0;
+}
+
+@media (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border-radius: 10px;
+    margin: 0.5rem;
+    box-shadow: 0 0.188em 1.55em rgb(110, 110, 110);
+    border: 1.5px solid;
+    border-color: aqua;
+  }
+}
+
+Label {
+  color: black;
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+.link-btn {
+  background: none;
+  color: darkblue;
+  text-decoration: underline;
+}
+.btn-submit {
+  margin: 1rem;
+  font-family: 'Sriracha', cursive;
+}
+Button {
+  border: white;
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: rgb(47, 79, 79);
+}
